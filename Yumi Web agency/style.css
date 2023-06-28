@@ -1,0 +1,78 @@
+*{
+    background-color: #2C3743;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+.container__header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.3em;
+    font-family: Fira Sans;
+    font-size: 20px;
+    color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0em 3em;
+}
+
+.img__logo{
+    width: 155.79px;
+}
+
+.container__li-header{
+    display: flex;
+    font-weight: medium;
+}
+
+.container__li-header li{
+    padding: 0em 1.8em;
+}
+
+.container__messages{
+    font-family: Fira Sans;
+    color: #FFFFFF;
+}
+
+.messages-we-are{
+    font-size: 85px;
+    font-weight: bold;
+    margin: 1.5em 3em 0.5em 1.5em;
+}
+
+.text-lorem{
+    font-weight: 300;
+    margin: 2em 32em 0em 7.7em;
+}
+
+
+.container__main-first-screen {
+    display: flex;
+    align-items: center;
+}
+
+.container__messages {
+    flex: 1;
+}
+
+.container__messages p {
+    margin: 0;
+    padding: 0em 16em 2em 8em;
+}
+
+.container__main-first-screen img {
+    margin-left: -12em;
+    margin-top: 4em;
+}
+
+.button-learn-more{
+    margin: 0em 44em 0em 8em;
+    border: 1px;
+    padding: 1em 1em 1em 2em;
+    background: #003ADB;
+    border-radius: 1em;
+    font-weight: 300;
+}
