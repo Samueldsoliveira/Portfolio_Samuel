@@ -4,7 +4,7 @@
 
 html, body {
     height: 50%;
-  }
+}
 
   .wrapper {
     min-height: 100%;
@@ -61,15 +61,85 @@ html, body {
     margin: 1em 0em 0em 6em;
 }
 
-@media(max-width: 500px){
+@media (max-width: 480px) {
+    .container{
+        padding-bottom: 2em;
+    }
+
+    .image-custom{
+        width: 250px;
+        height: 185px;
+        padding-top: 5em;
+    }
+
+    .container__main-about{
+        padding: 0em 0em 0em 3.3em;
+    }
+
+    .button__side{
+        display: none;
+    }
+
+    .button__curriculum{
+        margin: 0em 0em 0em 7em;
+    }
+}
+
+@media(min-width: 481px) and (max-width: 767px){
+    .container{
+        padding-bottom: 2em;
+    }
+
     .image-custom{
         width: 250px;
         height: 185px;
     }
-}
 
-@media(max-width: 1000px){
+    .container__main-about{
+        margin: 0em 0em 1em 2.2em;
+    }
+
     .button__side{
         display: none;
+    }
+
+    .button__curriculum{
+        margin: 0em 0em 0em 7em;
+    }
+
+    .custom__text{
+        display: contents;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+    .button__side{
+        display: none;
+    }
+
+    .container{
+        padding-bottom: 2em;
+    }
+
+    .custom__text{
+        display: contents;
+    }
+
+    .container__main-about{
+        margin: 0em 0em 1em 2.2em;
+    }
+
+    .custom__img-astronaut{
+        margin: 0em 9em;
+    }
+
+    .button__curriculum{
+        margin: 0em 0em 0em 16em;
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+    .button__curriculum{
+        margin: -2.5em 0em -2em 5em;
     }
 }
