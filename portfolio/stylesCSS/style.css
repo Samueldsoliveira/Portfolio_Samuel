@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+header{
+    margin: 0em 5em;
+}
+
+.bg-custom{
+    margin: 1rem 7rem;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-family: 'Pacifico', cursive;
+    box-shadow: 0px 0px 5px;
+}
+
+.bg-custom a{
+    font-size: 30px;
+    margin: 0em 0em;
+}
+
+.hover-transition{
+    transition: transform 0.3s ease;
+}
+
+.hover-transition:hover {
+    transform: scale(1.1);
+    filter: brightness(70%);
+}
+
+.text__header-custom a{
+    font-family: Tajawal;
+    font-size: 24px;
+}
+
+.image-custom{
+    width: 400px;
+    height: 300px;
+}
+
+.font__styled{
+    font-family: Poppins;
+    font-size: 18px;
+}
+
+.font__styled-bolder{
+    color: #606B99;
+    font-weight: 600;
+}
+
+.font__styled-normal{
+    color: #606B99;
+}
+
+.font__styled-phrase{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.image-pointer{
+    cursor: pointer;
+}
+
+@media(max-width: 500px){
+    header{
+        margin: 0em 2em;
+    }
+
+    .image-custom{
+        width: 250px;
+        height: 185px;
+    }
+}
+
+@media(max-width: 1000px){
+    .responsive__mobile-seta{
+        display: none;
+    }
+}
