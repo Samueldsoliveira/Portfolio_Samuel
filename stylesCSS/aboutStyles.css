@@ -51,6 +51,10 @@ html, body {
     padding: 0em 16em 0em 4em;
 }
 
+.container__main-about{
+    padding: 0em 0em 0em 3.3em;
+}
+
 .custom__anchor{
     background-color: #495482;
     color: white;
